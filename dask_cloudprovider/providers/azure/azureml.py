@@ -13,11 +13,12 @@ import pathlib
 
 from distributed.utils import (
     LoopRunner,
-    PeriodicCallback,
+    #PeriodicCallback,
     log_errors,
     ignoring,
     format_bytes,
 )
+from tornado.ioloop import PeriodicCallback
 
 logger = logging.getLogger(__name__)
 
